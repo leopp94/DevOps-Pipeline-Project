@@ -3,4 +3,4 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-CMD ["nodes", "backend/server.js"]
+CMD ["node", "backend/server.js"]

@@ -1,1 +1,1 @@
-document.getElementById('contents').innerText = 'Contenido cargado desde JavaScript.';
+document.getElementById('content').innerText = 'Contenido cargado desde JavaScript.';
