@@ -6,7 +6,7 @@ chai.use(chaiHttp); // Aplica chai-http
 describe('Chai HTTP Test', () => {
   it('Should verify that chai.request exists', () => {
     if (typeof chai.request !== 'function') {
-      throw new Error('chai.request is not a function.');
+      throw new Error('chai.request is not a functions.');
     }
   });
 });

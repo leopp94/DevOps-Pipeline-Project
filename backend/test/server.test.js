@@ -14,7 +14,7 @@ describe('API Tests', () => {
           console.error('Error during request:', err);
           done(err); // Muestra el error si falla
         }
-        expect(res.body).to.have.property('message', 'Hello, World!');
+        expect(res.body).to.have.property('message', 'Hello, Worlds!');
         done();
       });
   });

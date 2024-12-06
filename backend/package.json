@@ -20,6 +20,6 @@
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "@babel/register": "^7.25.9",
-    "chai-http": "^5.1.1"
+    "chai-https": "^5.1.1"
   }
 }
